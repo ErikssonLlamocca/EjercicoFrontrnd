@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" sizes="" href="">
+    <meta name="description" content="Curso de HTML-JS-CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- CSS del proyecto -->
+    <link rel="stylesheet" type="text/css" href="css/style6.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Pagina Principal</title>
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <main>
+      <h1>VALIDACION FORMULARIOS</h1>
+        <form id="formulario" class="row g-3 needs-validation" novalidate>
+            <section class="col-md-6">
+              <label for="txtusuario" class="form-label">Usuario</label>
+              <input type="text" class="inputtext usuario" id="txtusuario"  required>
+            </section>
+            <section class="col-md-6">
+              <label for="txtnombre" class="form-label nombre">Nombre</label>
+              <input type="text" class="inputtext" id="txtnombre" required>
+              
+            </section>
+            <p id="mensajeusuario" class="mensajeuser"></p>
+            <section class="col-md-6">
+              <label for="txtcorreo">Correo</label>
+              <input type="email" class="inputtext correo" id="txtcorreo" required>
+            </section>
+            <section class="col-md-6">
+              <label for="txtcelular">Celular</label>
+              <input type="text" class="inputtext" id="txtcelular" required>
+            </section>
+            <section class="col-md-6">
+              <label for="contraseña1" class="form-label">Contraseña</label>
+              <section class="input-group has-validation">
+                <input type="text" class="inputtext contra1" id="contraseña1" required>
+                
+              </section>
+            </section>
+            <section class="col-md-6">
+              <label for="contraseña2" class="form-label">Repetir contraseña</label>
+              <input type="text" class="inputtext contra2" id="contraseña2"  required>
+              
+            </section>
+            <p id="mensajecontraseña" class="mensajecontra"></p>
+            <section class="col-12">
+              <input type="button" class="btn btn-primary" id="btnenviar" value="Enviar">
+            </section>
+          </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
+<script src="js/main.js"></script>
