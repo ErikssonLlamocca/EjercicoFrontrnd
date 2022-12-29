@@ -36,11 +36,4 @@ Se realiza una solicitud HTTP GET a la url del api de pokemon, utilizando la fun
 
 - async function getFavoritos(token): La funcion devuelve los pokemones favoritos, realiza una solicitud HTTP GET con fetch. Luego definimos una variable "listafavoritos", donde le asignamos el valor de la respuesta de la funcion "getFavoritos" cuando se resuelva la promesa. Agregamos un controlador de eventos al elemento del DOM con el id "selectpokemon" para el evento de change, cuando se produce dicho evento, se llama a la función "mostrarPokemon", conjunto con su nombre, id "namepokemon". De esta manera, obtenemos la lista de pokemones favoritos del usuario y luego lo mostramos o lo ocultamos la imagen, en funcion de si el pokémon seleccionado está en la lista de favoritos del usuario o no. 
 
-- async function obtenerdatosdepokemon(pokemon): Obtenemos los datos del pokemon. Se realiza una solicitud HTTP GET para procesar la respuesta y ser almacenada en la variable "listafavoritos". Luego agregamos un controlador de eventos al DOM con el id "selectpokemon", para saber cuando el usuario cambie la selección de pokemon. Cuando esto sucede, llamamos a la función "mostrarPokemon", con el valor seleccionado en el elemento "select", para verificar si el nombre del pokémon seleccionado está en la lista de favoritos del usuario, se muestra o se oculta dependiendo de la actividad del usuario.
-
-- function crearCardPokemon(numero,imagenicono,imgpoke, nombre, ataques=[],tipo, boton): Creamos las cards, tarjetas de los pokemones con sus respectivas caracteristicas y un botón, creamos elementos de seccion HTML y clases CSS, la funcion nos devuelve el elemento de seccion principal. 
-
-
-
-##Capa de datos
-Hemos utilizado la base de datos mongodb para el almacenamientos de la información de usuarios, pokemones, pokemones favoritos.
+- async function obtenerdatosdepokemon(pokemon): Obtenemos los datos del pokemon. Se realiza una solicitud HTTP GET para procesar la respuesta y ser almacenada en la variable "listafavoritos". Luego agregamos un controlador de eventos al DOM con el id "selectpokemon", para saber cuando el usuario cambie la selección de pokemon. Cuando esto sucede
