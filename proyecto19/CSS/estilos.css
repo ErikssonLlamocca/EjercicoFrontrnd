@@ -1,0 +1,93 @@
+
+header{
+    background-color: royalblue;
+}
+
+
+.img{
+    height: 50px;
+    margin: 6px;
+}
+.menu{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+.pokemons{
+    height: 210px;
+}
+.usuario{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-size: 27px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.color{
+    background-color: rgb(193, 214, 254);
+    border-color:cornflowerblue ;
+}
+.button1{
+    height: 35px;
+	line-height: 25px;
+	width: 10%;
+	background:cornflowerblue;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 1px;
+	cursor: pointer;
+}
+.button2{
+    border-radius: 0.5rem;
+    height: 3rem;
+    width: 25%;
+    background:cornflowerblue;
+	color: #fff;
+    border: none;
+}
+.bordeDatos{
+    border: 1px solid rgb royalblue;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    background-color:cornflowerblue;
+    color: white;
+}
+select{
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+    
+}
+.caja{
+    margin: 15px auto;        
+    border:1px solid cornflowerblue;
+    border-radius: 0.8rem;
+    height:40px;
+    width: 230px;
+    overflow: hidden;
+    position:relative;
+    font-size: 20px;
+}
+.img-pokemons{
+    align-items: center;
+    height: 50%;
+}
+.name-pokemons{
+    text-align:end;
+    padding: 5px;
+}
+.pokeball{
+    height: 2rem;
+}

@@ -1,0 +1,239 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;  
+}
+
+.bordeDatos{
+    border: 1px solid rgb royalblue;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    background-color:cornflowerblue;
+    color: white;
+}
+select{
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+    
+}
+.caja{
+    margin: 15px auto;        
+    border:1px solid cornflowerblue;
+    border-radius: 0.8rem;
+    height:40px;
+    width: 230px;
+    overflow: hidden;
+    position:relative;
+    font-size: 20px;
+}
+.img-pokemons{
+    align-items: center;
+    height: 50%;
+}
+.name-pokemons{
+    text-align:end;
+    padding: 5px;
+}
+.pokeball{
+    height: 2rem;
+}
+.tipo-planta{
+    height: 10rem;
+    margin-top: 2.5rem;
+}
+.pokeball2{
+    height: 2.5rem;
+}
+#containerpokemon{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+.pokemons-grass{
+    border-radius: 0.5rem;
+    background: rgb(162,244,106);
+    background: radial-gradient(circle, rgb(197, 252, 173) 0%, rgb(5, 154, 65) 100%);
+    padding-bottom: 1.5rem;
+   
+}
+.hoja{
+    height: 12rem;
+}
+.img-planta{
+    justify-content: center;
+    align-content: center;
+    display:flex;
+}
+.tipo-fuego{
+    height: 10rem;
+    margin-top: 2.5rem;
+}
+.img-fuego{
+    justify-content: center;
+    align-content: center;
+    display:flex;
+}
+.pokemons-fire{
+    border-radius: 0.5rem;
+    background: rgb(251,197,109);
+    background: radial-gradient(circle, rgba(251,197,109,1) 13%, rgba(205,44,24,1) 100%);
+   
+}
+.pokeball3{
+    height: 2.8rem;
+}
+.pokeball4{
+    height: 2.5rem;
+}
+.pokemons-normal{
+    border-radius: 0.5rem;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(144,143,143,1) 100%);
+    
+}
+.pokemons-water{
+    border-radius: 0.5rem;
+    background: rgb(203,242,255);
+    background: radial-gradient(circle, rgba(203,242,255,1) 13%, rgba(87,217,241,1) 100%);
+    
+}
+.pokemons-electric{
+    border-radius: 0.5rem;
+    background: rgb(251,255,133);
+    background: radial-gradient(circle, rgba(251,255,133,1) 13%, rgba(238,185,22,1) 100%);
+    
+}
+.pokemons-ice{
+    border-radius: 0.5rem;
+    background: rgb(238,251,255);
+    background: radial-gradient(circle, rgb(234, 246, 250) 13%, rgb(145, 246, 255) 100%);
+    
+}
+.pokemons-fighting{
+    border-radius: 0.5rem;
+    background: rgb(236,209,142);
+    background: radial-gradient(circle, rgb(236, 209, 142) 7%, rgba(185,60,32,1) 100%);
+    
+}
+.pokemons-poison{
+    border-radius: 0.5rem;
+    background: rgb(252,181,255);
+    background: radial-gradient(circle, rgba(252,181,255,1) 13%, rgba(169,50,244,1) 100%);
+    
+}
+.pokemons-ground{
+    border-radius: 0.5rem;
+    background: rgb(247,220,170);
+    background: radial-gradient(circle, rgba(247,220,170,1) 13%, rgba(199,139,27,1) 100%);
+    
+}
+.pokemons-flying{
+    border-radius: 0.5rem;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255) 0%, rgba(51,245,246,1) 100%);
+    
+}
+
+/* pokemon hada*/
+
+
+
+.pokemons-fairy{
+    border-radius: 0.5rem;
+    background: rgb(255,221,225);
+    background: radial-gradient(circle, rgba(255,221,225,1) 0%, rgba(221,134,145,0.7819502801120448) 100%);
+    padding-bottom: 1.5rem;
+
+}
+
+
+/* pokemon acero*/
+
+
+.pokemons-steel{
+    border-radius: 0.5rem;
+    background: rgb(76,161,175);
+    background: radial-gradient(circle, rgba(76,161,175,1) 0%, rgba(65,93,121,1) 100%);
+    padding-bottom: 1.5rem;
+}
+
+.img-acero{
+    justify-content: center;
+    align-content: center;
+    display:flex;
+}
+
+/* pokemon siniestro*/
+
+
+
+.pokemons-dark{
+    border-radius: 0.5rem;
+    background: rgb(136,135,135);
+    background: radial-gradient(circle, rgba(136,135,135,0.7791491596638656) 0%, rgba(67,67,67,1) 100%);
+    padding-bottom: 1.5rem;
+}
+
+
+
+/* pokemon dragon*/
+
+
+.pokemons-dragon{
+    border-radius: 0.5rem;
+    background: rgb(255,209,148);
+    background: radial-gradient(circle, rgba(255,209,148,1) 0%, rgba(209,145,60,0.8407738095238095) 100%);
+    padding-bottom: 1.5rem;
+}
+
+
+/* pokemon fantasma*/
+
+
+.pokemons-ghost{
+    border-radius: 0.5rem;
+    background: rgb(190,88,105);
+    background: radial-gradient(circle, rgb(231, 188, 237) 0%, rgb(104, 33, 130) 100%);
+    padding-bottom: 1.5rem;
+}
+
+
+/* pokemon roca*/
+
+
+.pokemons-rock{
+    border-radius: 0.5rem;
+    background: rgb(154,132,120);
+    background: radial-gradient(circle, rgba(154,132,120,0.9528186274509804) 0%, rgba(59,39,26,1) 100%);
+    padding-bottom: 1.5rem;
+}
+
+
+
+/* pokemon bicho*/
+
+.pokemons-bug{
+    border-radius: 0.5rem;
+    background: rgb(82,194,52);
+    background: radial-gradient(circle, rgba(82,194,52,0.6923144257703081) 0%, rgba(18,61,3,1) 100%);
+    padding-bottom: 1.5rem;
+}
+
+
+/* pokemon Psíquico*/
+
+
+.pokemons-psychic{
+    border-radius: 0.5rem;
+    background: rgb(204,166,187);
+    background: radial-gradient(circle, rgba(254, 209, 234, 0.852) 0%, rgb(255, 102, 183) 100%);
+    padding-bottom: 1.5rem;
+}
