@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOSTRAP--> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <!-- Link Estilos CSS-->
+      <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <title>Registro Pokemon</title>
+</head>
+<body>
+    <header>
+        <img  class="img" src="img/pngwing.com (1).png">
+    </header>
+    <nav>
+          <ul class="menu">
+                <a href="index.html" style="margin: 50px;" id="inicio" class="menu">
+                    Inicio 
+                </a>
+                    <a href="" style="margin: 50px;" id="Registro" class="menu">
+                        Sign Up
+                    </a>
+                    <a href="sesion14.html" style="margin: 50px;" id="Sesion14" class="menu bordeDatos">
+                        Profile
+                    </a>
+                    <a href="pokemonlist.html" style="margin: 50px;" id="Sesion15" class="menu">
+                        Pokemon List
+                    </a>
+                    <a href="sesion16.html" style="margin: 50px;" id="Sesion16" class="menu">
+                        Pokemon Favorites
+                    </a>
+            </ul>
+    </nav>
+        <p></p>
+     <main>
+        <section class="container">
+            <section class="row">
+                <section class="col-sm-12 col-md-2 col-lg-2 col=xl-2">
+                    <section class = "px-4 py-4" >
+                        <img src="img/jugador.jpg" class="img-pokemons rounded mx-auto d-block">
+                    </section> 
+                </section>
+                <section class="col-sm-12 col-md-10 col-lg-10 col=xl-10">
+                    <form class="row needs-validation" novalidate>
+                        <h2>Perfil de Jugador</h2>
+                        <p></p>
+                        <!-- NAME COMPLETO -->
+                            <section class="row usuario m-2">
+                                <section class="col-2 p-1">
+                                    <label for="validationCustom01"  class="rounded float-start">Nombre Completo:</label>
+                                </section>
+                                <section class="col-md-3">
+                                    <input type="text" class="form-control bg color" id="validationCustom01" value="" required>
+                                    <section class="valid-feedback">
+                                        Looks good!
+                                    </section>    
+                                </section>
+                            </section>
+                            
+    
+                            <!-- CORREO ELECTRONICO -->
+                            <section class="row usuario m-2">
+                                <section class="col-2 p-1">
+                                    <label for="validationCustom02" class="rounded float-start">Correo Electronico:</label>
+                                </section>
+                                <section class="col-md-3">
+                                    <input type="email" class="form-control bg color" id="validationCustom02" required>
+                                    <section class="invalid-feedback">
+                                        Debe contar con @correo.com
+                                    </section>    
+                                </section>
+                            </section>
+                            
+    
+                            <!-- NAME USUARIO -->
+                            <section class="row usuario m-2">
+                                <section class="col-2 p-1">
+                                    <label for="validationCustom03"  class="rounded float-start">Nombre de Usuario:</label>
+                                </section>
+                                <section class="col-md-3">
+                                    <input type="text" class="form-control bg color" id="validationCustom03" value="" required>
+                                    <section class="valid-feedback">
+                                        Looks good!
+                                    </section>    
+                                </section>
+                            </section>
+                        
+    
+                            <!-- CONTRASEÑA -->
+                            <section class="row usuario m-2">
+                                <section class="col-2 p-1">
+                                    <label for="validationCustom04" class="rounded float-start">Contraseña:</label>
+                                </section>
+                                <section class="col-md-3">
+                                    <input type="password" class="form-control bg color" name="password" id="validationCustom04" value=""  required>
+                                    <section class="invalid-feedback">
+                                        Debe tener como minimo 6 caracteres
+                                    </section>    
+                                </section>
+                            </section>
+                            <p></p>
+
+                            <section class="row usuario m-2">
+                                <section class="col-2 p-1">
+                                    <button type="button" class="btn btn-success">Editar  </button>
+                                </section>
+                                <section class="col-2 p-1">
+                                    <button type="button" class="btn btn-warning">Guardar</button>
+                                </section>
+                                <section class="col-2 p-1">
+                                    <button type="button" class="btn btn-danger ">Eliminar</button> 
+                                </section>
+                            </section>
+                    </form>
+
+                </section>
+ 
+            </section>
+        
+        </section>  
+        <p></p>
+ 
+    </main>
+    <footer></footer>
+</body>
+</html>
+<script src="js/profile.js"></script>
